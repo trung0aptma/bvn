@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.backgr {
+    height: 100vh;
+    background-image: url(./img/backgr/banner-shape.png);
+}
+
+.container {
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+    display: flex;
+}
+
+.imag-set {
+    width: 100%;
+    height: 150px;
+}
+
+
+#print {
+    width: 250px;
+    height: 50px;
+    margin: 100px;
+    border-radius: 20px;
+    background-color: blue;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#print:hover {
+    background-color: #fff;
+    color: blue;
+    border: blue solid 2px;
+    box-shadow: 0px 0px 12px 10px blue;
+}
